@@ -3,7 +3,7 @@ import os
 import allure
 from dotenv import load_dotenv
 from core.settings.environments import Environment
-from core.settings.config import Users, Timeouts, Bookings
+from core.settings.config import Users, Timeouts
 from core.clients.endpoints import Endpoints
 
 load_dotenv()
